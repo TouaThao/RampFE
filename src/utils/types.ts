@@ -30,3 +30,7 @@ export type SetTransactionApprovalParams = {
   transactionId: string
   value: boolean
 }
+
+export type SuccessResponse = {
+  success: boolean
+}
